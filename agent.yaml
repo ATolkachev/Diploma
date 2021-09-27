@@ -7,9 +7,9 @@ spec:
     image: sonarsource/sonar-scanner-cli:latest
     env:
     - name: SONAR_HOST_URL
-      value: http://34.88.236.161:9000
+      value: http://34.88.136.130:9000
     - name: SONAR_LOGIN
-      value: 9e039429cf515b5c560fa20ca3ae52e1b0b293fc
+      value: a3d20cfa4dc2e0ee622de91931a92698ed040b1d
     command:
     - cat
     tty: true
